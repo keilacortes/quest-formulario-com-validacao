@@ -1,1 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    height: 100vh;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+}
+
+.aviso{
+    max-width: 350px;
+    color: #ffffff;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+p{
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.formulario{
+    height: 391px;
+    width: 340px;
+    padding: 22px;
+    background-color: #ffffff;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+[placeholder]{
+    padding: 6px;
+    font-weight: 700;
+    color: #A8A8A8;
+}
+
+input[type="submit"]{
+    color: #ffffff;
+    background-color: #3CCC87;
+    height: 40px;
+    border: solid transparent;
+    cursor: pointer;
+}
