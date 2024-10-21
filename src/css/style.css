@@ -28,7 +28,7 @@ p{
 }
 
 .formulario{
-    height: 391px;
+    max-height: 391px;
     width: 340px;
     padding: 22px;
     background-color: #ffffff;
@@ -42,12 +42,12 @@ p{
 input, textarea{
     border: solid 1px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 [placeholder]{
     padding: 6px;
     font-weight: 700;
-    color: #A8A8A8;
 }
 
 input[type="submit"]{
@@ -56,4 +56,21 @@ input[type="submit"]{
     height: 40px;
     border: solid transparent;
     cursor: pointer;
+}
+
+.incompleto{
+    color: #F52E2E;
+    font-size: 8px;
+}
+
+.hidden{
+    display: none;
+}
+
+.border-red{
+    border: solid 1px #F52E2E;
+}
+
+.border-green{
+    border: solid 1px #00C22B;
 }
